@@ -87,9 +87,9 @@
 4. 手动安装 ChatTTS 依赖到项目目录：
    ```bash
    cd ChatTTS_colab
-   git clone https://github.com/2noise/ChatTTS
+   git clone -q https://github.com/2noise/ChatTTS
    cd ChatTTS
-   git checkout -q f4c8329
+   git checkout -q e6412b1
    cd ..
    mv ChatTTS temp
    mv temp/ChatTTS ./ChatTTS
